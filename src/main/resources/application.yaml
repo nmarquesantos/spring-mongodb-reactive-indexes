@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: player-service
+  data:
+    mongodb:
+      connectionMode: STANDALONE
+      uri: mongodb://localhost:27017/players
